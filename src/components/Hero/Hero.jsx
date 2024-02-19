@@ -4,7 +4,7 @@ import round from "../../assets/roundgraphic.svg";
 
 const Hero = () => {
   return (
-    <div>
+    <section className=" h-fit">
       <div className=" h-[500px] w-full justify-center space-y-10 bg-brand-bg py-10 text-center md:h-[620px] md:rounded-3xl">
         <div className="space-y-6 md:mt-12">
           <p className="justify-center text-4xl font-semibold leading-snug text-brand-primary md:text-7xl">
@@ -37,19 +37,19 @@ const Hero = () => {
             Get started
           </button>
         </div>
-        <div className="relative mx-auto w-[90%] rounded-3xl bg-white shadow-lg md:w-[60%]">
-          <p className="p-10  text-start text-lg font-semibold">
-            Users over time
-          </p>
-          <img src={lineal} alt="" className="w-[100%] px-10 pb-6" />
-          <img
-            src={round}
-            alt=""
-            className="absolute -bottom-10 -right-10 w-[36%] md:-bottom-16 md:-right-16 md:w-[32%]"
-          />
-        </div>
       </div>
-    </div>
+      <div className="relative  mx-auto -mt-14 w-[90%] rounded-3xl bg-white shadow-lg md:-mt-24 md:w-[60%]">
+        <p className="p-10  text-start text-lg font-semibold">
+          Users over time
+        </p>
+        <img src={lineal} alt="" className="w-[100%] px-10 pb-6" />
+        <img
+          src={round}
+          alt=""
+          className="absolute -bottom-10 -right-10 w-[36%] md:-bottom-16 md:-right-16 md:w-[32%]"
+        />
+      </div>
+    </section>
   );
 };
 
