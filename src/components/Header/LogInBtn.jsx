@@ -1,6 +1,6 @@
 const LogInBtn = () => {
   return (
-    <div className=" flex flex-col items-center justify-center gap-[2vh] space-x-2 md:flex-row ">
+    <div className="flex flex-col items-center justify-center gap-[2vh] space-x-2 border-t-2 bg-white pb-5 md:flex-row md:border-t-0">
       <button className="text-nowrap rounded-md px-3 py-2 text-lg font-medium text-secondary transition-colors duration-300 hover:bg-gray-200">
         Log in
       </button>
