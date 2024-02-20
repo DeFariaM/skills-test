@@ -24,12 +24,12 @@ const Features = () => {
         <h1 className="text-4xl font-semibold">
           Cutting-edge features for advanced analytics
         </h1>
-        <p className="mx-auto text-xl text-secondary md:w-[48%]">
+        <p className="mx-auto text-xl text-secondary md:w-[60%]">
           Powerful, self-serve product and growth analytics to help you convert,
           engage, and retain more users. Trusted by over 4,000 startups.
         </p>
       </div>
-      <div className="md:grid md:grid-cols-3 md:gap-20">
+      <div className=" lg:grid lg:grid-cols-3 lg:gap-20">
         {data &&
           data.map(({ title, description }, index) => (
             <Card
