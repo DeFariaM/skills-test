@@ -1,3 +1,6 @@
+import Collage from "../components/Collage";
+import Features from "../components/Features/Features";
+import GiveAShot from "../components/GiveAShot";
 import Hero from "../components/Hero/Hero";
 import Integrations from "../components/Integrations/Integrations";
 
@@ -10,6 +13,9 @@ const Home = () => {
       <div>
         <Integrations />
       </div>
+      <GiveAShot />
+      <Features />
+      <Collage />
     </div>
   );
 };
