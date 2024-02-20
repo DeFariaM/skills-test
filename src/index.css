@@ -21,3 +21,11 @@
 .nav-btn {
   @apply text-nowrap  rounded-md px-3 py-2  text-lg font-medium text-secondary transition-colors  duration-300 hover:bg-gray-200;
 }
+
+.nav-footer {
+  @apply font-semibold text-tertiary;
+}
+
+.etiq-section {
+  @apply rounded-full border-[1px] border-[#E9D7FE] bg-[#F9f5FF] p-1 px-3 text-center text-sm font-medium text-tertiary;
+}
