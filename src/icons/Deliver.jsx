@@ -1,5 +1,3 @@
-import React from "react";
-
 export const Deliver = ({ className }) => {
   return (
     <div>
