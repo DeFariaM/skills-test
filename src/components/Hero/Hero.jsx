@@ -1,4 +1,3 @@
-import React from "react";
 import lineal from "../../assets/lineargraphic.svg";
 import round from "../../assets/roundgraphic.svg";
 import QuestionMark from "../../icons/QuestionMark";

@@ -1,5 +1,3 @@
-import React from "react";
-
 const Products = () => {
   return (
     <div className="mt-[10%] items-center text-center text-6xl text-white">

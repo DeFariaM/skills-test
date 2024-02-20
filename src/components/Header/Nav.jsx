@@ -18,7 +18,7 @@ const Nav = () => {
     } else {
       setToggle(true);
     }
-  }, [window.innerWidth]);
+  }, []);
 
   window.addEventListener("resize", () => {
     if (window.innerWidth > 1028) setToggle(true);
