@@ -52,7 +52,7 @@ const Integrations = () => {
           </span>
         </p>
       </div>
-      <div className="mx-auto w-full justify-center bg-red-200 md:grid md:grid-cols-2 lg:grid-cols-3 lg:gap-[8%]">
+      <div className="mx-auto w-full justify-center  md:grid md:grid-cols-2 lg:grid-cols-3 lg:gap-[8%]">
         {data &&
           data.map(({ title, description, redirect }, index) => (
             <Card
