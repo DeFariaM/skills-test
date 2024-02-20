@@ -3,10 +3,10 @@ import React from "react";
 const Collage = () => {
   return (
     <div
-      className="mx-auto flex flex-col items-center justify-between bg-[#F9FAFB]
+      className="mx-auto flex flex-col items-center justify-between 
     py-20 xl:flex-row"
     >
-      <div className="items-center space-y-10 p-10 md:w-[60%]">
+      <div className=" items-center space-y-10  p-10 lg:w-[60%]">
         <h1 className="text-nowrap text-5xl font-semibold">
           No long-term contracts.
           <br />
