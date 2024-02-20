@@ -2,39 +2,25 @@ import { NavLink } from "react-router-dom";
 
 const NavLinks = () => {
   return (
-    <div className=" justify-center bg-white pb-5 text-lg  font-medium text-secondary lg:space-x-6">
+    <div className=" justify-center bg-white pb-5 lg:space-x-6">
       <ul className="flex flex-col items-center gap-[2vh] md:flex-row">
         <li>
-          <NavLink
-            className="rounded-md px-3 py-2  transition-colors duration-300 hover:bg-gray-200"
-            to="/"
-          >
+          <NavLink className="nav-btn" to="/">
             Home
           </NavLink>
         </li>
         <li>
-          <NavLink
-            className="rounded-md px-3 py-2 transition-colors  duration-300
-        hover:bg-gray-200"
-            to="/products"
-          >
+          <NavLink className="nav-btn" to="/products">
             Products
           </NavLink>
         </li>
         <li>
-          <NavLink
-            className="rounded-md px-3 py-2 transition-colors  duration-300
-        hover:bg-gray-200"
-            to="/resources"
-          >
+          <NavLink className="nav-btn" to="/resources">
             Resources
           </NavLink>
         </li>
         <li>
-          <NavLink
-            className="rounded-md px-3 py-2 transition-colors duration-300 hover:bg-gray-200"
-            to="/pricing"
-          >
+          <NavLink className="nav-btn" to="/pricing">
             Pricing
           </NavLink>
         </li>
