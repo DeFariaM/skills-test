@@ -27,10 +27,10 @@ const Nav = () => {
   return (
     <nav
       id="navbar"
-      className="mx-4 mt-4 flex items-center justify-between lg:container lg:mx-auto"
+      className="mx-4 mt-2 flex items-center justify-between lg:container lg:mx-auto"
     >
-      <div className="flex min-h-fit justify-between space-x-10">
-        <div>
+      <div className="flex min-h-fit items-center justify-between space-x-10">
+        <div className="items-center">
           <Logotype />
         </div>
         <div className="absolute right-0 top-[100%] min-h-[25vh] w-full lg:relative lg:min-h-fit lg:items-center ">
@@ -38,7 +38,7 @@ const Nav = () => {
         </div>
       </div>
 
-      <div className="absolute left-0 top-60 w-full lg:relative lg:top-0 lg:flex lg:min-h-fit lg:justify-end">
+      <div className="absolute left-0 top-48 w-full lg:relative lg:top-0 lg:flex lg:min-h-fit lg:justify-end">
         {toggle && <LogInBtn />}
       </div>
       <button className="fixed right-3 top-4 lg:hidden" onClick={toggleMenu}>
