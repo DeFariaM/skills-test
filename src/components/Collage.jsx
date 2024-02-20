@@ -3,11 +3,12 @@ import React from "react";
 const Collage = () => {
   return (
     <div
-      className="mx-auto flex flex-col items-center justify-between 
-    py-20 xl:flex-row"
+      id="collage"
+      className="mx-auto flex w-[90%] flex-col items-center justify-between py-20 
+    md:w-full xl:flex-row"
     >
       <div className=" items-center space-y-10  p-10 lg:w-[60%]">
-        <h1 className="text-nowrap text-5xl font-semibold">
+        <h1 className="text-5xl font-semibold md:text-nowrap">
           No long-term contracts.
           <br />
           No catches.
@@ -26,7 +27,10 @@ const Collage = () => {
         </div>
       </div>
 
-      <div className="mx-auto grid w-[100%] grid-cols-1 justify-center gap-4  md:grid-rows-2 xl:w-[50%]">
+      <div
+        id="grid-collage"
+        className="mx-auto grid w-[100%] grid-cols-1 justify-center gap-4  md:grid-rows-2 xl:w-[50%]"
+      >
         <div className="mx-auto grid w-full grid-cols-1 gap-4  md:w-fit md:grid-cols-2 md:items-end">
           <div className="flex max-h-[350px] items-center justify-center overflow-hidden md:max-h-[160px] md:max-w-[160px]">
             <img

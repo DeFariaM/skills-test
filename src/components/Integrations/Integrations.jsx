@@ -40,8 +40,9 @@ const Integrations = () => {
     },
   ];
   return (
-    <div className="container mx-auto">
-      <div className="mx-auto w-[90%] text-center md:w-[60%]">
+    <div id="integrations" className="container mx-auto">
+      <div className="mx-auto w-[90%] space-y-6 text-center md:w-[60%]">
+        <span className="etiq-section ">Integrations</span>
         <p className=" justify-center text-4xl font-semibold">
           Get more value from yout tools
           <br />

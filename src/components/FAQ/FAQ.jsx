@@ -34,10 +34,10 @@ const FAQ = () => {
     },
   ];
   return (
-    <div>
-      <div className="space-y-5 text-center">
+    <div id="faq" className="space-y-16">
+      <div className="space-y-6 text-center">
         <h2 className="text-4xl font-semibold">Frequently asked questions</h2>
-        <p className="text-xl text-secondary">
+        <p className="mx-auto w-[60%] text-xl text-secondary md:w-full">
           Everything you need to know about the product and billing.
         </p>
       </div>

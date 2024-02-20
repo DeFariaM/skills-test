@@ -5,12 +5,12 @@ import Minus from "../../icons/Minus";
 const Accordion = ({ question, answer }) => {
   const [accOpen, setAccOpen] = useState(false);
   return (
-    <div className="mx-auto w-[90%] lg:w-[50%]">
+    <div id="accordion" className="mx-auto w-[90%] lg:w-[50%]">
       <button
         onClick={() => setAccOpen(!accOpen)}
         className="mt-5 flex w-full items-center justify-between"
       >
-        <span className="text-lg font-medium">{question}</span>
+        <h3 className="text-lg font-medium">{question}</h3>
         {accOpen ? (
           <span
             className={`h-6 w-6 origin-center transform transition duration-200 ease-out ${

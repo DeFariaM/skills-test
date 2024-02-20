@@ -1,6 +1,6 @@
-const Logotype = ({ logo, brand }) => {
+const Logotype = () => {
   return (
-    <div className="w-42 flex items-center justify-center font-inter font-semibold text-primary">
+    <div className="w-42 flex items-center font-inter font-semibold text-primary">
       <svg
         width="38"
         height="38"

@@ -19,11 +19,13 @@ const Features = () => {
     },
   ];
   return (
-    <div className="container mx-auto justify-center text-center">
+    <div id="features" className="container mx-auto justify-center text-center">
       <div className="space-y-10">
-        <h1 className="text-4xl font-semibold">
+        <span className="etiq-section ">Features</span>
+
+        <h2 className="text-4xl font-semibold">
           Cutting-edge features for advanced analytics
-        </h1>
+        </h2>
         <p className="mx-auto text-xl text-secondary md:w-[60%]">
           Powerful, self-serve product and growth analytics to help you convert,
           engage, and retain more users. Trusted by over 4,000 startups.

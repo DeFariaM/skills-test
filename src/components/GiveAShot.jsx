@@ -1,6 +1,6 @@
 const GiveAShot = () => {
   return (
-    <div className="banner-brand">
+    <div id="giveashot" className="banner-brand w-[90%] lg:w-full ">
       <div className="items-center  space-y-10 p-16 text-start md:w-[66%]">
         <h1 className="text-4xl font-semibold text-brand-primary">
           Give us a shot
