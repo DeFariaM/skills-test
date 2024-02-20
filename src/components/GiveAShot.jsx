@@ -13,9 +13,9 @@ const GiveAShot = () => {
           <button className="btn-primary">Get started</button>
         </div>
       </div>
-      <div className="w-[100%]  lg:w-[50%] xl:w-[33%]">
+      <div className="w-[100%]  lg:w-[75%] xl:w-[40%]">
         <img
-          src="src/assets/image-1.png"
+          src="https://s3-alpha-sig.figma.com/img/cebe/a7e0/4b9d293dbdedf2f0b205f66900fd7697?Expires=1709510400&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=ZOsaJhSh2L2~ZyI4RAeOJ0OzXmA8x395tdUmrZk6xF1dk2H5VHjdmSbtDzAPwiht8hLyGNcaj0i4Yr8~lFv8b1klpVCNKWnT0ScER9hrBCR6f052ouCQxWm7bPIb6LbV2CJMquell99p5ZidW7j6arIIKd-GFGpsVpUxEsevS8l4LMLj6i2NQ0A7apeIVgtEWgZ72iLTvbwpKRkH5QAlVcZoJ~3pWWezPY~HyqqACBcr3z4dBAITWrgni9KdjIBul9v0x9VS8xDOHyFAvpNvgs2BslWa5gUgwv~UHzWXKiQ3OeFXEABO~aKZwZ4PBSGoQaTCqn6F-qOwL3lbF1lbaw__"
           alt="woman-smile"
           className="w-[100%]"
         />

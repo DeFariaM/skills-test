@@ -8,7 +8,7 @@ const Review = () => {
           className="-mt-36 w-full lg:-mt-0"
         />
       </div>
-      <div className="space-y-10 p-20 lg:w-[50%]">
+      <div className="w-[110%] space-y-10 p-20 lg:w-[50%]">
         <div className="space-x-2">
           {Array.from({ length: 5 }).map((_, index) => (
             <span key={index} className="text-3xl text-yellow-400">

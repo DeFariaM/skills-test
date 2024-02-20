@@ -41,11 +41,11 @@ const Nav = () => {
       <div className="absolute left-0 top-48 w-full lg:relative lg:top-0 lg:flex lg:min-h-fit lg:justify-end">
         {toggle && <LogInBtn />}
       </div>
-      <button className="fixed right-3 top-4 lg:hidden" onClick={toggleMenu}>
+      <button className="fixed right-3 top-2 lg:hidden" onClick={toggleMenu}>
         {toggle ? (
-          <Close className="w-8 text-secondary " />
+          <Close className="w-8 text-[#344054] " />
         ) : (
-          <Menu className="w-8 text-secondary" />
+          <Menu className="w-8 text-[#344054]" />
         )}
       </button>
     </nav>
