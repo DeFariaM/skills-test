@@ -1,6 +1,6 @@
-import RightArrow from "../../icons/RightArrow";
+import RightArrow from "../icons/RightArrow";
 
-const IntegrationCard = ({ title, redirect, description }) => {
+const Card = ({ title, redirect, description, action }) => {
   const img = title.split(" ");
   const image = img[0].toLowerCase();
 
@@ -12,7 +12,7 @@ const IntegrationCard = ({ title, redirect, description }) => {
       <p className="mb-5 text-secondary">{description}</p>
       <div className="text-tertiary flex items-center justify-center space-x-2 font-semibold">
         <a href={redirect} target="_blank">
-          View integration{" "}
+          {action}
         </a>
         <RightArrow />
       </div>
@@ -20,4 +20,4 @@ const IntegrationCard = ({ title, redirect, description }) => {
   );
 };
 
-export default IntegrationCard;
+export default Card;

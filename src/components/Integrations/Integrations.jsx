@@ -1,4 +1,4 @@
-import CardIntegration from "./CardIntegration";
+import Card from "../Card";
 
 const Integrations = () => {
   const data = [
@@ -55,11 +55,12 @@ const Integrations = () => {
       <div className="mx-auto justify-center  md:grid md:grid-cols-3 md:gap-[8%]">
         {data &&
           data.map(({ title, description, redirect }, index) => (
-            <CardIntegration
+            <Card
               key={index}
               title={title}
               description={description}
               redirect={redirect}
+              action="View integration"
             />
           ))}
       </div>
