@@ -1,8 +1,10 @@
 import Collage from "../components/Collage";
+import FAQ from "../components/FAQ/FAQ";
 import Features from "../components/Features/Features";
 import GiveAShot from "../components/GiveAShot";
 import Hero from "../components/Hero/Hero";
 import Integrations from "../components/Integrations/Integrations";
+import Review from "../components/Review";
 
 const Home = () => {
   return (
@@ -16,6 +18,8 @@ const Home = () => {
       <GiveAShot />
       <Features />
       <Collage />
+      <FAQ />
+      <Review />
     </div>
   );
 };
