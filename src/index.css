@@ -7,7 +7,7 @@
 }
 
 .banner-brand {
-  @apply mx-auto flex flex-col items-center justify-between overflow-hidden rounded-3xl bg-brand-bg lg:flex-row;
+  @apply mx-auto flex  flex-col items-center justify-between overflow-hidden rounded-3xl bg-brand-bg lg:max-h-[500px] lg:flex-row;
 }
 
 .btn-primary {
